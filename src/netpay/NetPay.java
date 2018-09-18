@@ -17,13 +17,13 @@ public class NetPay {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        double h = 40;
-        double w = 5;
-        double i = -2;
-        double t = 0.22;
-        double n =(h*w-i)-t*(h*w-i);
+        double hours = 40;
+        double wage = 5;
+        double insurance = -2;
+        double tax = 0.22;
+        double netpay =(hours*wage-insurance)-tax*(hours*wage-insurance);
         
-        System.out.println("The Net Pay of the person is " + n );
+        System.out.println("The Net Pay of the person is " + netpay );
     }
     
 }
